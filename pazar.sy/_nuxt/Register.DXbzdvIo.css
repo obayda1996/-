@@ -1,0 +1,21 @@
+.overflow-y-auto[data-v-c1cc89a1] {
+    scrollbar-color: #e5e7eb transparent;
+    scrollbar-width: thin
+}
+
+.overflow-y-auto[data-v-c1cc89a1]::-webkit-scrollbar {
+    width: 6px
+}
+
+.overflow-y-auto[data-v-c1cc89a1]::-webkit-scrollbar-track {
+    background: transparent
+}
+
+.overflow-y-auto[data-v-c1cc89a1]::-webkit-scrollbar-thumb {
+    background-color: #e5e7eb;
+    border-radius: 3px
+}
+
+.bg-gray-50[data-v-c1cc89a1] {
+    background-color: #f9fafb
+}

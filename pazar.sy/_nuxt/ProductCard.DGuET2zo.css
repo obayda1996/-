@@ -1,0 +1,15 @@
+.transition-colors[data-v-b5c3e41d] {
+    transition: all .2s ease-in-out
+}
+
+button[data-v-b5c3e41d]:active {
+    transform: scale(.95)
+}
+
+.line-clamp-2[data-v-b5c3e41d] {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis
+}

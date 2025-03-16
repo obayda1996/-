@@ -1,0 +1,44 @@
+.user-profile[data-v-1ba093cd] {
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 1px 3px #0000001a
+}
+
+.hover\:bg-gray-50[data-v-1ba093cd] {
+    transition: background-color .2s ease-in-out
+}
+
+.overflow-hidden[data-v-1ba093cd] {
+    overflow: hidden
+}
+
+.flex-col[data-v-1355ac33] {
+    transition: all .3s ease
+}
+
+button:hover .bg-green-50[data-v-1355ac33] {
+    background-color: #16a34a33
+}
+
+button[data-v-1355ac33]:disabled {
+    cursor: not-allowed;
+    opacity: .7
+}
+
+.backdrop-blur-sm[data-v-13e6f0ab] {
+    transition: all .3s ease-in-out
+}
+
+button[data-v-13e6f0ab] {
+    transition: all .2s ease-in-out
+}
+
+button[data-v-13e6f0ab]:active {
+    transform: scale(.98)
+}
+
+.user-section[data-v-13e6f0ab] {
+    border-radius: .5rem;
+    overflow: hidden;
+    position: relative
+}

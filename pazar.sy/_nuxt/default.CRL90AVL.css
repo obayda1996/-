@@ -1,0 +1,12 @@
+.dropdown-container[data-v-2841194c] {
+    display: inline-block;
+    position: relative
+}
+
+.dropdown-container img[data-v-2841194c] {
+    transition: all .2s ease-in-out
+}
+
+.dropdown-container img[data-v-2841194c]:hover {
+    transform: scale(1.05)
+}

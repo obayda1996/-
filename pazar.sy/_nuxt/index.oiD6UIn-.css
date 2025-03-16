@@ -1,0 +1,110 @@
+.transition-opacity[data-v-f01337c8] {
+    transition: opacity .5s ease-in-out
+}
+
+button[data-v-f01337c8]:hover {
+    transform: scale(1.05)
+}
+
+button[data-v-f01337c8]:active {
+    transform: scale(.95)
+}
+
+.transition-colors[data-v-f01337c8] {
+    transition: all .3s ease-in-out
+}
+
+.fallback-content[data-v-f01337c8] {
+    animation: fadeIn-f01337c8 .5s ease-in-out
+}
+
+@keyframes fadeIn-f01337c8 {
+    0% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+img[src*="placeholder.com"][data-v-f01337c8] {
+    background-color: #f3f4f6;
+    filter: brightness(.95)
+}
+
+.sticky[data-v-bb2b40c7] {
+    box-shadow: 0 2px 4px #0000000d
+}
+
+.scrollbar-hide[data-v-bb2b40c7] {
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+.scrollbar-hide[data-v-bb2b40c7]::-webkit-scrollbar {
+    display: none
+}
+
+.group:hover span[data-v-bb2b40c7] {
+    color: #059669
+}
+
+.group[data-v-bb2b40c7]:active {
+    transform: scale(.98)
+}
+
+.sticky[data-v-bb2b40c7]:after {
+    background: linear-gradient(90deg, transparent, rgba(0, 0, 0, .05), transparent);
+    bottom: -1px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0
+}
+
+.space-x-reverse[data-v-bb2b40c7]>:not([hidden])~:not([hidden]) {
+    --tw-space-x-reverse: 1;
+    margin-left: calc(1.5rem*(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(1.5rem*var(--tw-space-x-reverse))
+}
+
+.overflow-x-auto[data-v-bb2b40c7] {
+    scrollbar-color: rgba(156, 163, 175, .5) transparent;
+    scrollbar-width: thin
+}
+
+.overflow-x-auto[data-v-bb2b40c7]::-webkit-scrollbar {
+    height: 4px
+}
+
+.overflow-x-auto[data-v-bb2b40c7]::-webkit-scrollbar-track {
+    background: transparent
+}
+
+.overflow-x-auto[data-v-bb2b40c7]::-webkit-scrollbar-thumb {
+    background-color: #9ca3af80;
+    border-radius: 2px
+}
+
+.filter-badge[data-v-3962b280] {
+    align-items: center;
+    border-radius: 9999px;
+    display: inline-flex;
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246/var(--tw-bg-opacity, 1));
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding: .25rem .75rem
+}
+
+.filter-badge button[data-v-3962b280] {
+    margin-right: .25rem;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128/var(--tw-text-opacity, 1))
+}
+
+.filter-badge button[data-v-3962b280]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(55 65 81/var(--tw-text-opacity, 1))
+}
